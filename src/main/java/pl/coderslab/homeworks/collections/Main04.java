@@ -58,6 +58,7 @@ public class Main04 {
         for (Map.Entry<Integer, List<Person>> entry : peopleByAge.entrySet()) {
             System.out.println(entry.getKey() + "-" + entry.getValue().size());
         }
+
     }
 
 }
