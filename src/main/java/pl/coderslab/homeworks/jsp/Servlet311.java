@@ -9,9 +9,6 @@ import java.util.Map;
 
 @WebServlet("/servlet311")
 public class Servlet311 extends HttpServlet {
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-
-    }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         Map<String, String> lang = new HashMap<>();

@@ -12,9 +12,9 @@
     <title>Title</title>
 </head>
 <body>
-
-${empty cookie.language ? "CZEŚĆ" : ""}
-${tookLanguage}
+<c:set var="val" value="${tookLanguage}"> </c:set>
+${empty cookie.language ? "CZEŚĆ" : val}
+<%--${tookLanguage}--%>
 
 <form action="/servlet312" method="post">
 
